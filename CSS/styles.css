@@ -8,17 +8,19 @@
 
 }
 
+
 nav{
     background-color: #2590c0;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    width: 100%;
+    padding: 0px;
 }
 
 .logo{
     width: 250px;
-    margin: 36px;
+    margin: 24px;
 }
 
 ul{
@@ -66,18 +68,71 @@ ul{
 /*FORM STYLES*/
 
 .main__form{
-    padding-right: 200px;
     width: 500px;
+    background-color: white;
+    border: 2px solid #f7fbff;
+    box-shadow: 0 5px 12px 8px rgb(0 0 0 / 10%);
+    
 }
 .top__form{
     
     font-weight: bold;
     background-color: #2590c0;
     padding: 16px;
-    ;   
+     
 }
 
-.form_text{
+.form_heading{
     color: white;
     font-size: 24px;
+}
+
+.feild{
+    border: solid #dddde4;
+    color: #444;
+    padding: 8px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.form__feilds{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form__text{
+    color: #444;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main__checkbox{
+  
+}
+
+.checkmark_text{
+    font-weight: 700;
+}
+
+/*Test Checkbox*/
+
+.checkbox__1 {
+    position: relative;
+    top: 0;
+    width: 20px ;
+    height: 20px;
+    border: 2px solid #dfdfdf;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    appearance: none;
 }
