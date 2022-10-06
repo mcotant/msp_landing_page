@@ -50,11 +50,20 @@ ul{
 
 .hero__2{
    display: flex;
-   justify-content: space-around;
-   padding: 50px;
+   justify-content: space-between;
+   padding: 5px;
+  
+   
  
    
 }
+
+.img_1{
+  height: 800px;
+  width: 800px;
+}
+
+
 
 .Free{
     color: #8066ff;
